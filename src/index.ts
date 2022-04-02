@@ -1,9 +1,10 @@
-import { Test } from "../types";
+import { Sum } from "../types";
 
-export class TestClient implements Test {
-  public console(text: string) {
-    console.log(text);
+export class SumClient implements Sum {
+  public sum(one: number, two: number) {
+    const a = 0;
+    return one + two;
   }
 }
 
-export default TestClient;
+export default SumClient;

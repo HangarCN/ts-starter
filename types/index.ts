@@ -1,3 +1,3 @@
-export interface Test {
-  console: (text: string) => void;
+export interface Sum {
+  sum: (one: number, two: number) => number;
 }
