@@ -1,0 +1,40 @@
+{
+  "name": "@hangar/test",
+  "version": "2022.0.0",
+  "description": "Hangar Test",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.esm.js",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.3",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-typescript": "^8.3.1",
+    "@types/qs": "^6.9.7",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "5.0.0",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.1",
+    "rollup": "^2.70.1",
+    "tslib": "*",
+    "typescript": "^4.6.3"
+  },
+  "scripts": {
+    "build": "rollup --config",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hangar-Front-End/api-client.git"
+  },
+  "author": "Houtaroy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hangar-Front-End/api-client/issues"
+  },
+  "homepage": "https://github.com/Hangar-Front-End/api-client#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "qs": "^6.10.3"
+  }
+}
